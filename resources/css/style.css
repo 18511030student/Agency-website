@@ -1,0 +1,383 @@
+/*
+Template Name:Paul Lapkin
+Template URI:
+Description:An awesome portfolio site design
+Author:Moshiur
+Author URI:
+Support:asifmostafa 01@gmail.com
+Version:1.0
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+/*
+CSS INDEX
+
+1.Common CSS
+2.HERO SECTION 
+3.ABOUT
+4.PROCESS
+5.EXPERIENCE 
+6.portfolio
+7.TESTIMONIAL
+8.CONTACT
+9.FOOTER
+*/
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container-fluid{
+    max-width: 1280px;
+    margin: auto;
+}
+.nav-item a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+    
+    letter-spacing: 0.03em;
+    
+    color: #1D1B1B;
+
+    text-decoration: none;
+    
+}
+.nav-item a:hover{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+    
+    letter-spacing: 0.03em;
+    
+    color: #EF0178;
+
+
+    text-decoration: none;
+    
+}
+.contact{
+    border: 1px solid #EF0178;
+border-radius: 5px;
+}
+.contact a{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+
+
+letter-spacing: -0.16px;
+
+color: #EF0178;
+padding: 13px 42px;
+text-decoration: none;
+}
+#hero{
+    
+    padding: 66px 20px 100px 20px;
+}
+.row1280{
+    max-width: 1280px;
+    margin: auto;
+}
+.hero-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.title{
+    max-width: 629px;
+    
+}
+.title h1{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 80px;
+/* or 125% */
+
+letter-spacing: -1.5px;
+
+color: #1D1B1B;
+}
+.title h1 span{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 80px;
+/* or 125% */
+
+letter-spacing: -1.5px;
+
+color: #ef0178;
+}
+.hero-image-block img{
+    height: 696px;
+    width: 660px;
+}
+.hero-content{
+    max-width: 521px;
+    
+}
+.hero-content p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 42px;
+/* or 233% */
+
+
+color: #1D1B1B;
+}
+.get-button a{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    /* identical to box height, or 200% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    padding: 12px 33px;
+    background: #5243C2;
+    border-radius: 4px;
+
+}
+#client{
+    background: #e5e5e5;
+    padding: 50px 20px;
+}
+.row1040{
+max-width: 1040px;
+margin: auto;
+}
+.client-block{
+    max-width: 627px;
+    margin: auto;
+}
+.client-block h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+    /* identical to box height, or 222% */
+    
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: #DF006B;
+    margin-bottom: 12px;
+}
+.client-block p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    /* or 167% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.5px;
+    
+    color: #1D1B1B;
+    margin-bottom: 50px;
+}
+.client-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.client-logo img{
+    width: 150px;
+    height: 47px;
+}
+#work{
+    padding: 100px 20px;
+    
+}
+.work-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.work-block img{
+    width: 633px;
+    height: 707px;
+}
+.work-content{
+    max-width: 534px;
+    margin: auto;
+}
+.work-content h2{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+/* or 125% */
+
+letter-spacing: -1.5px;
+
+color: #1D1B1B;
+}
+
+.work-content h2 span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    /* or 125% */
+    
+    letter-spacing: -1.5px;
+    color: #5243C2;
+}
+
+.work-content p{
+   max-width: 439px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 34px;
+/* or 189% */
+
+
+color: #1D1B1B;
+
+opacity: 0.6;
+margin-bottom: 20px;
+}
+.work-content ul li{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #1D1B1B;
+
+opacity: 0.6;
+margin-bottom: 15px;
+}
+#service{
+    padding: 50px 20px;
+}
+.service-block{
+    text-align: center;
+}
+.service-block h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+    /* identical to box height, or 222% */
+    
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: #DF006B;
+    
+}
+.service-block p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    
+    text-align: center;
+    letter-spacing: -1.5px;
+    
+    color: #1D1B1B;
+
+}
+
+.service-box{
+    max-width: 265px;
+    height: 262px;
+    text-align: center;
+
+}
+.img-design{
+    background: linear-gradient(323.91deg, #FFCC40 7.09%, rgba(255, 204, 64, 0.5) 88.82%);
+    border-radius: 6px;
+    width: 110px;
+    height: 110px;
+
+}
+.service-box h3{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+letter-spacing: -0.750316px;
+
+color: #000000;
+margin: 21px 0 15px 0;
+
+}
+.service-box p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    /* or 200% */
+    
+    text-align: center;
+    letter-spacing: -0.500211px;
+    
+    color: rgba(0, 0, 0, 0.7);
+    
+    opacity: 0.6;
+
+}
+
+.service-box-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.box-2 .img-design{
+    background: linear-gradient(320.89deg, #25D9D9 10.83%, rgba(37, 217, 217, 0.5) 88.7%);
+}
+.box-3 .img-design{
+    background: linear-gradient(319.4deg, #0898E7 5.17%, rgba(8, 152, 231, 0.5) 94.34%);
+}
+.box-4 .img-design{
+    background: linear-gradient(322.63deg, #FF9066 9.94%, rgba(255, 144, 102, 0.5) 91.14%);
+}
